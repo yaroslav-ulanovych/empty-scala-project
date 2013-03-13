@@ -30,6 +30,13 @@
 							<goal>compile</goal>
 						</goals>
 					</execution>
+                    <execution>
+                        <id>scala-test-compile</id>
+                        <phase>test-compile</phase>
+                        <goals>
+                            <goal>testCompile</goal>
+                        </goals>
+                    </execution>
 				</executions>
 			</plugin>
 		</plugins>
