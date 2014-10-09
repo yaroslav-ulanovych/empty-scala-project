@@ -9,6 +9,7 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<scalaVersion>2.11</scalaVersion>
+		<scalaVersionFull>${scalaVersion}.2</scalaVersionFull>
 	</properties>
 
 
@@ -16,7 +17,7 @@
 		<dependency>
 			<groupId>org.scala-lang</groupId>
 			<artifactId>scala-library</artifactId>
-			<version>${scalaVersion}.2</version>
+			<version>${scalaVersionFull}</version>
 		</dependency>
 
 		<dependency>
