@@ -12,7 +12,6 @@
 		<scalaVersionFull>${scalaVersion}.6</scalaVersionFull>
 	</properties>
 
-
 	<dependencies>
 		<dependency>
 			<groupId>org.scala-lang</groupId>
